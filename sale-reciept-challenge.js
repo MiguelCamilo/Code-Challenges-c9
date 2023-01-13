@@ -23,7 +23,7 @@ const customerTaxTotal = calculateSaleTax(customerSubtotal,TAX_RATE)
 const customerTotal = roundNumber(customerSubtotal + customerTaxTotal)
 
  // when func returns a data type you dont have to clog the function
-clog((`Subtotal          $${customerSubtotal}  \nTax                  $${roundNumer(customerTaxTotal)}`))
+clog((`Subtotal          $${customerSubtotal}  \nTax                  $${roundNumber(customerTaxTotal)}`))
 
 clog('------------------------')
 
