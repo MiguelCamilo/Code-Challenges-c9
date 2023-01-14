@@ -2,7 +2,7 @@
 
 // TODO: create a sales receipt summary w/ subTotal and taxRate and total
 
-const clog = (log) => console.log(`${log}`)
+const clog = (log) => console.log(`${log}`) // consolelog func
 
 // func for Math.Round
 const roundNumber = num => Math.round(num * 100) / 100
